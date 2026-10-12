@@ -6,8 +6,8 @@ const contactInfo = {
   phoneDisplay: "+964 773 777 7039",
   phone: "+9647737777039",
   whatsapp: "9647737777039",
-  instagram: "https://instagram.com/shhrbn694",
-  tiktok: "https://www.tiktok.com/@user86712321300015",   // ← اگر آیدی تیک‌تاک اشتباه بود اینجا اصلاح کنید
+  instagram: "https://instagram.com/shhrbn594",
+  tiktok: "https://www.tiktok.com/@user8671221200010",
 };
 
 const I18N = {
