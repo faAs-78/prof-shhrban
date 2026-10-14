@@ -1,3 +1,15 @@
+<!--
+=====================================================================
+  ORIGINAL CODE (DISABLED / کد اصلی - فعلاً کامنت شده)
+  To restore the original page:
+    1) Delete everything from the line "TEMPORARY PAGE START"
+       down to the end of the file.
+    2) Remove the comment opener right above this text and the
+       comment closer ("ORIGINAL CODE END" line) so the code below is live.
+  NOTE: inner comments of the original were rewritten as <!~~ ... ~~>
+  (a harmless bogus-comment form) because HTML comments cannot be nested.
+=====================================================================
+
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
@@ -20,7 +32,7 @@
 <div class="stage">
 <main class="page" id="card">
 
-  <!-- Hero: brand text over the highway photo -->
+  <!~~ Hero: brand text over the highway photo ~~>
   <section class="hero">
     <div class="lang reveal" role="group" aria-label="Language · زبان · اللغة" dir="ltr" style="--d:.5s">
       <span class="lang__pill" aria-hidden="true"></span>
@@ -45,7 +57,7 @@
 
   <div class="body">
 
-  <!-- Contact card -->
+  <!~~ Contact card ~~>
   <section class="contact reveal" data-i18n-aria="aContact" aria-label="اطلاعات تماس" style="--d:.1s">
     <div class="contact__info">
       <div class="contact__row contact__who-row">
@@ -80,7 +92,7 @@
     </div>
   </section>
 
-  <!-- Services -->
+  <!~~ Services ~~>
   <section class="features reveal" data-i18n-aria="aServices" aria-label="خدمات" style="--d:.18s">
     <div class="feature">
       <span class="ring"><svg viewBox="0 0 24 24" fill="none"><path d="M3.5 9.5h17l-1.6 9a2 2 0 0 1-2 1.7H7.1a2 2 0 0 1-2-1.7l-1.6-9Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8 9.5 11 4M16 9.5 13 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M9 13.5v3.2M12 13.5v3.2M15 13.5v3.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>
@@ -100,7 +112,7 @@
     </div>
   </section>
 
-  <!-- Quick links + save + 24h waybill -->
+  <!~~ Quick links + save + 24h waybill ~~>
   <section class="actions reveal" data-i18n-aria="aLinks" aria-label="راه‌های ارتباطی" style="--d:.26s">
     <div class="actions__grid">
       <div class="actions__main">
@@ -133,7 +145,7 @@
 
   </div>
 
-  <!-- Footer on road-banner photo -->
+  <!~~ Footer on road-banner photo ~~>
   <footer class="footer reveal" style="--d:.34s">
     <div class="footer__bg" aria-hidden="true"></div>
     <div class="footer__text">
@@ -157,3 +169,290 @@
 
 </body>
 </html>
+
+=====================================================================
+  ORIGINAL CODE END
+=====================================================================
+-->
+
+
+<!--
+=====================================================================
+  TEMPORARY PAGE START  (صفحه موقت - غیرفعال بودن صفحه)
+  To restore the original page: delete from here to the end of the file,
+  then un-comment the original code at the top.
+=====================================================================
+-->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>شهربان | الصفحة غير متاحة حالياً | SHAHRBAN</title>
+<meta name="theme-color" content="#07180f">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍊</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  /* ---- Temporary page tokens (same dark-green / orange look as the card) ---- */
+  :root{
+    --bg:#07180f;
+    --bg-2:#0c2819;
+    --green:#2f8f4e;
+    --lime:#9be15d;
+    --orange:#ff9a1f;
+    --orange-2:#ffc06a;
+    --text:#f3f8f1;
+    --muted:rgba(243,248,241,.68);
+    --glass:rgba(255,255,255,.06);
+    --line:rgba(255,255,255,.14);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:'Vazirmatn','Poppins',system-ui,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    min-height:100vh;
+    min-height:100dvh;
+    display:grid;
+    place-items:center;
+    overflow:hidden;
+    padding:max(20px,env(safe-area-inset-top)) 20px max(20px,env(safe-area-inset-bottom));
+    -webkit-font-smoothing:antialiased;
+  }
+  html[lang="en"] body{font-family:'Poppins','Vazirmatn',system-ui,sans-serif}
+
+  /* Animated background glow */
+  .bg{position:fixed;inset:0;z-index:0;overflow:hidden;
+    background:
+      radial-gradient(60% 50% at 80% 8%, rgba(255,154,31,.20), transparent 70%),
+      radial-gradient(70% 60% at 10% 100%, rgba(47,143,78,.35), transparent 70%),
+      linear-gradient(160deg,var(--bg-2),var(--bg) 60%);
+  }
+  .bg::before,.bg::after{content:"";position:absolute;border-radius:50%;filter:blur(60px);opacity:.55;animation:drift 14s ease-in-out infinite alternate}
+  .bg::before{width:320px;height:320px;background:rgba(255,154,31,.22);top:-80px;inset-inline-end:-60px}
+  .bg::after{width:380px;height:380px;background:rgba(47,143,78,.30);bottom:-120px;inset-inline-start:-100px;animation-delay:-6s}
+  @keyframes drift{to{transform:translate(40px,30px) scale(1.15)}}
+
+  /* Floating fruits */
+  .fruits{position:fixed;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+  .fruits span{
+    position:absolute;bottom:-60px;left:var(--x);
+    font-size:var(--s);opacity:0;
+    filter:drop-shadow(0 6px 10px rgba(0,0,0,.35));
+    animation:rise var(--t) linear var(--dl) infinite;
+  }
+  @keyframes rise{
+    0%{transform:translateY(0) rotate(0);opacity:0}
+    10%{opacity:.85}
+    90%{opacity:.85}
+    100%{transform:translateY(-115vh) rotate(var(--r));opacity:0}
+  }
+
+  /* Language switch (same sliding-pill idea as the original card) */
+  .lang{
+    position:fixed;top:max(16px,env(safe-area-inset-top));inset-inline-end:16px;z-index:5;
+    display:flex;padding:4px;border-radius:999px;
+    background:var(--glass);border:1px solid var(--line);
+    backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  }
+  .lang button{
+    position:relative;z-index:1;border:0;background:none;color:var(--muted);
+    font:600 13px/1 'Vazirmatn','Poppins',sans-serif;
+    padding:9px 16px;border-radius:999px;cursor:pointer;min-width:74px;
+    transition:color .3s;
+  }
+  .lang button[aria-pressed="true"]{color:#1b1200}
+  .lang button:focus-visible{outline:2px solid var(--orange-2);outline-offset:2px}
+  .lang__pill{
+    position:absolute;z-index:0;top:4px;bottom:4px;left:4px;width:calc(50% - 4px);
+    border-radius:999px;background:linear-gradient(135deg,var(--orange-2),var(--orange));
+    box-shadow:0 6px 18px rgba(255,154,31,.4);
+    transition:transform .45s cubic-bezier(.65,0,.25,1);
+  }
+  .lang[data-active="en"] .lang__pill{transform:translateX(100%)}
+
+  /* Main card */
+  .card{
+    position:relative;z-index:2;width:min(480px,100%);
+    text-align:center;padding:44px 28px 30px;border-radius:32px;
+    background:linear-gradient(160deg,rgba(255,255,255,.10),rgba(255,255,255,.03));
+    border:1px solid var(--line);
+    backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+    box-shadow:0 30px 80px rgba(0,0,0,.45), inset 0 1px 0 rgba(255,255,255,.12);
+    animation:cardIn .9s cubic-bezier(.2,.8,.2,1) both;
+  }
+  @keyframes cardIn{from{opacity:0;transform:translateY(30px) scale(.96)}to{opacity:1;transform:none}}
+
+  /* Logo with rotating ring */
+  .badge{position:relative;width:132px;height:132px;margin:0 auto 26px;display:grid;place-items:center}
+  .badge::before{
+    content:"";position:absolute;inset:0;border-radius:50%;
+    border:2px dashed rgba(255,192,106,.6);animation:spin 18s linear infinite;
+  }
+  .badge::after{
+    content:"";position:absolute;inset:-14px;border-radius:50%;
+    border:2px solid transparent;border-top-color:var(--orange);border-inline-end-color:var(--lime);
+    animation:spin 3.2s linear infinite;
+  }
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .badge__core{
+    width:96px;height:96px;border-radius:50%;display:grid;place-items:center;
+    background:radial-gradient(circle at 30% 25%,rgba(255,255,255,.18),rgba(255,255,255,.04));
+    animation:pulse 2.6s ease-in-out infinite;overflow:hidden;
+  }
+  .badge__core img{width:72%;height:72%;object-fit:contain}
+  .badge__core .emoji{font-size:48px;line-height:1}
+  @keyframes pulse{
+    0%,100%{box-shadow:0 0 0 0 rgba(255,154,31,.45)}
+    50%{box-shadow:0 0 0 18px rgba(255,154,31,0)}
+  }
+
+  /* Status chip */
+  .chip{
+    display:inline-flex;align-items:center;gap:9px;
+    padding:8px 16px;border-radius:999px;margin-bottom:18px;
+    background:rgba(255,154,31,.14);border:1px solid rgba(255,154,31,.4);
+    color:var(--orange-2);font-size:13px;font-weight:700;
+  }
+  .chip i{width:9px;height:9px;border-radius:50%;background:var(--orange);animation:blink 1.2s ease-in-out infinite}
+  @keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.6)}}
+
+  h1{
+    font-size:clamp(26px,6.4vw,34px);font-weight:900;line-height:1.35;margin-bottom:14px;
+    background:linear-gradient(100deg,#fff 20%,var(--orange-2) 45%,#fff 70%);
+    background-size:220% 100%;
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+    animation:shine 5s ease-in-out infinite;
+  }
+  @keyframes shine{0%{background-position:120% 0}100%{background-position:-120% 0}}
+  p.lead{font-size:15.5px;line-height:2;color:var(--muted);margin-bottom:26px}
+  html[lang="en"] p.lead{line-height:1.8}
+
+  /* Indeterminate progress bar */
+  .bar{height:6px;border-radius:99px;background:rgba(255,255,255,.1);overflow:hidden;margin:0 auto 26px;max-width:260px}
+  .bar::before{
+    content:"";display:block;height:100%;width:40%;border-radius:99px;
+    background:linear-gradient(90deg,var(--green),var(--lime),var(--orange));
+    animation:slide 1.8s ease-in-out infinite;
+  }
+  @keyframes slide{0%{transform:translateX(-110%)}100%{transform:translateX(260%)}}
+  [dir="rtl"] .bar::before{animation-name:slideRtl}
+  @keyframes slideRtl{0%{transform:translateX(110%)}100%{transform:translateX(-260%)}}
+
+  .brand{padding-top:20px;border-top:1px solid var(--line)}
+  .brand b{display:block;font-size:19px;font-weight:800;letter-spacing:.3px}
+  .brand span{display:block;margin-top:4px;font-size:13px;color:var(--muted)}
+
+  /* Text swap animation when language changes */
+  [data-i18n]{transition:opacity .25s,transform .25s}
+  .swap [data-i18n]{opacity:0;transform:translateY(6px)}
+
+  @media (max-width:420px){
+    .card{padding:38px 20px 26px;border-radius:26px}
+    .lang button{min-width:62px;padding:9px 12px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+    .fruits{display:none}
+  }
+</style>
+</head>
+<body>
+
+<div class="bg" aria-hidden="true"></div>
+
+<div class="fruits" aria-hidden="true">
+  <span style="--x:6%;--s:34px;--t:14s;--dl:0s;--r:200deg">🍊</span>
+  <span style="--x:18%;--s:26px;--t:18s;--dl:-6s;--r:-160deg">🍋</span>
+  <span style="--x:30%;--s:38px;--t:16s;--dl:-3s;--r:180deg">🍎</span>
+  <span style="--x:44%;--s:28px;--t:20s;--dl:-11s;--r:-220deg">🥬</span>
+  <span style="--x:58%;--s:36px;--t:15s;--dl:-8s;--r:240deg">🍇</span>
+  <span style="--x:70%;--s:30px;--t:19s;--dl:-2s;--r:-180deg">🥕</span>
+  <span style="--x:82%;--s:34px;--t:17s;--dl:-13s;--r:210deg">🍅</span>
+  <span style="--x:92%;--s:26px;--t:21s;--dl:-5s;--r:-200deg">🍓</span>
+</div>
+
+<div class="lang" id="lang" dir="ltr" data-active="ar" role="group" aria-label="اللغة · Language">
+  <span class="lang__pill" aria-hidden="true"></span>
+  <button type="button" data-lang="ar" lang="ar" aria-pressed="true">العربية</button>
+  <button type="button" data-lang="en" lang="en" aria-pressed="false">English</button>
+</div>
+
+<main class="card" role="main">
+  <div class="badge" aria-hidden="true">
+    <div class="badge__core">
+      <img src="assets/logo.png" alt="" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'emoji',textContent:'🍊'}))">
+    </div>
+  </div>
+
+  <div class="chip"><i></i><span data-i18n="chip">معطّلة مؤقتاً</span></div>
+
+  <h1 data-i18n="title">هذه الصفحة غير متاحة حالياً</h1>
+
+  <p class="lead" data-i18n="lead">تم تعطيل الصفحة مؤقتاً لأعمال التحديث والتحسين. سنعود إليكم قريباً، طازجين كما عهدتمونا. شكراً لصبركم وتفهّمكم.</p>
+
+  <div class="bar" role="presentation"></div>
+
+  <div class="brand">
+    <b>شهربان · SHAHRBAN</b>
+    <span data-i18n="brand">مركز توريد وتوزيع الفواكه والخضروات الطازجة</span>
+  </div>
+</main>
+
+<script>
+(function(){
+  var T = {
+    ar:{
+      dir:'rtl', title_doc:'شهربان | الصفحة غير متاحة حالياً | SHAHRBAN',
+      chip:'معطّلة مؤقتاً',
+      title:'هذه الصفحة غير متاحة حالياً',
+      lead:'تم تعطيل الصفحة مؤقتاً لأعمال التحديث والتحسين. سنعود إليكم قريباً، طازجين كما عهدتمونا. شكراً لصبركم وتفهّمكم.',
+      brand:'مركز توريد وتوزيع الفواكه والخضروات الطازجة'
+    },
+    en:{
+      dir:'ltr', title_doc:'SHAHRBAN | This page is currently unavailable',
+      chip:'Temporarily disabled',
+      title:'This page is currently unavailable',
+      lead:'This page has been temporarily disabled while we make improvements. We will be back very soon, as fresh as ever. Thank you for your patience and understanding.',
+      brand:'Fresh fruit & vegetable supply and distribution hub'
+    }
+  };
+  var root = document.documentElement, card = document.querySelector('.card'),
+      box = document.getElementById('lang'), btns = box.querySelectorAll('button');
+
+  function apply(l){
+    var d = T[l]; if(!d) return;
+    root.lang = l; root.dir = d.dir; document.title = d.title_doc;
+    box.setAttribute('data-active', l);
+    btns.forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.lang === l ? 'true' : 'false'); });
+    document.querySelectorAll('[data-i18n]').forEach(function(el){
+      var k = el.getAttribute('data-i18n'); if(d[k]) el.textContent = d[k];
+    });
+    try{ localStorage.setItem('shahrban_lang', l); }catch(e){}
+  }
+  function change(l){
+    if(root.lang === l) return;
+    card.classList.add('swap');
+    setTimeout(function(){ apply(l); card.classList.remove('swap'); }, 220);
+  }
+  btns.forEach(function(b){ b.addEventListener('click', function(){ change(b.dataset.lang); }); });
+
+  var saved = null; try{ saved = localStorage.getItem('shahrban_lang'); }catch(e){}
+  var start = saved || ((navigator.language || '').toLowerCase().indexOf('en') === 0 ? 'en' : 'ar');
+  apply(T[start] ? start : 'ar');
+})();
+</script>
+
+</body>
+</html>
+<!--
+=====================================================================
+  TEMPORARY PAGE END
+=====================================================================
+-->
